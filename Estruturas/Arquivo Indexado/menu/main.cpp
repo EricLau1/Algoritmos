@@ -1,4 +1,4 @@
-// AlgortmosII : Arquivo Indexado
+// AlgoritmosII : Arquivo Indexado
 // Estrutura feita com Menu e Structs
 // Autor: Eric Lau de Oliveira
 // Análise e Desenvolvimento de Sistemas 2º Ano - FEMA
