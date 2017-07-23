@@ -13,10 +13,11 @@ int main(){
 		if(listaVelha[i] != lote[j]){
 		   novaLista[k] = listaVelha[i];
 		   k++;
+		}else{
+		   cout << lote[j] << " <~~ removido" << endl;
+		   j++;
 		}
-		cout << lote[j] << " <~~ removido" << endl;
 		i++;
-		j++;
 	}
 	
 	while(i < 7){
@@ -26,7 +27,7 @@ int main(){
 	}
 	
 	cout << "\nLista Atualizada" << endl;
-	for(int i = 0; i <= 7 - 4; i++){
+	for(int i = 0; i < 7 - 4; i++){
 		cout << i << " ~~> " << novaLista[i] << endl;
 	}
 	return 0;
